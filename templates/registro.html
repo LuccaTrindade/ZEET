@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Bulma Version 0.8.2-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.2/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/g4b1b13l/ODE@master/odelogin.css">
+
+    <style>
+        .titulo{
+            text-align:left;
+            font-weight: bold;
+            font-size:16px; 
+        }
+        .desc{
+            text-align:center;
+            font-weight: bold;
+            font-size:16px; 
+        }
+
+        .formulario{
+            width: 3000px;
+        }
+
+        #campo-descricao{
+            height:200px;
+        }
+
+        .entradas-sobescrever{
+            font-size:16px;
+            width:100%;
+            height:30pt;
+            border-radius:3px;
+        }
+
+        meter {
+            /* Reset the default appearance */
+            -webkit-appearance: none;
+                -moz-appearance: none;
+                    appearance: none;
+
+            margin: 0 auto 1em;
+            width: 100%;
+            height: 0.5em;
+
+            /* Applicable only to Firefox */
+            background: none;
+            background-color: rgba(0, 0, 0, 0.1);
+            }
+
+        meter::-webkit-meter-bar {
+            background: none;
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Webkit based browsers */
+        /*
+        meter[value="1"]::-webkit-meter-optimum-value { background: red; }
+        meter[value="2"]::-webkit-meter-optimum-value { background: yellow; }
+        meter[value="3"]::-webkit-meter-optimum-value { background: orange; }
+        meter[value="4"]::-webkit-meter-optimum-value { background: green; }
+        */
+        /* Gecko based browsers */
+        /*
+        meter[value="1"]::-moz-meter-bar { background: red; }
+        meter[value="2"]::-moz-meter-bar { background: yellow; }
+        meter[value="3"]::-moz-meter-bar { background: orange; }
+        meter[value="4"]::-moz-meter-bar { background: green; }
+        */
+
+        
+        .feedback {
+            color: #9ab;
+            font-size: 90%;
+            padding: 0 .25em;
+            font-family: Courgette, cursive;
+            margin-top: 1em;
+        }
+
+        .corpo_formulario{
+            width:50%;
+            margin:auto;
+        }
+        
+        
+
+        
+    </style>
+
+</head>
+
+<body>
+    <section class="hero has-background-white-ter is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="corpo_formulario"> <!--Tabela de casdatro-->
+                    <h3 class="title has-text-black">Cadastro ODE</h3>
+                    <hr class="login-hr">
+                    <p class="subtitle has-text-black">Preencha seus dados para fazer o cadastro</p>
+                    <form method="POST">
+                    <div class="box">
+                        <form id="tabela-dados"  class="fomulario">
+                            <div class="field">
+                                <h2 class="titulo">Digite o seu nome completo</h2>
+                                <div class="control">
+                                    <input style="text-align:left" class="entradas-sobescrever" type="text"  name="nome_registro" placeholder="Digite aqui..." autofocus="" required>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <h2 class="titulo">Digite a sua matrícula/siap</h2>
+                                <div class="control">
+                                    <input class="entradas-sobescrever" type="text"  name="matricula_registro" placeholder="Digite aqui..." autofocus="" required>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <h2 class="titulo">Você é membro da universidade?</h2>
+                                <div class="control">
+                                    <p>
+                                        <input type="radio" name="sim_nao" value="sim" checked>Sim</input>
+                                        </p>
+                                        <p>
+                                        <input type="radio" name="sim_nao" value="nao">Não</input>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <h2 class="titulo">Descreva o porquê você tem interesse em acessar o site do ODE</h2>
+                                <div class="control">
+                                    <textarea  class="entradas-sobescrever" name="campo_descricao" type="text"  placeholder="Digite aqui..." autofocus="" cols="30" rows="10" style="height:50pt;" required></textarea>
+                                </div>
+                            </div>
+                            <!---->
+
+                            <div class="field">
+                                <h2 class="titulo">Digite o nome de usuário que deseja utilizar</h2>
+                                <div class="control">
+                                    <input class="entradas-sobescrever" type="text"  name="username_registro" placeholder="Digite aqui..." autofocus="" required>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <h2 class="titulo">Digite o seu email</h2>
+                                <div class="control">
+                                    <input class="entradas-sobescrever" type="email"  name="email_registro" placeholder="Digite aqui..." autofocus="" required>
+                                </div>
+                            </div>
+
+
+                            <div class="field">
+                                <h2 class="titulo">Digite a sua senha</h2>
+                                <div class="control">
+                                    
+                                    <input class="entradas-sobescrever" type="password" name="password_registro" id="password" placeholder="Digite aqui..." required>
+                                    <input type="checkbox" onclick="myFunction()" style="margin:0">Mostrar a senha </input>
+                                    <meter style="margin:0" max="4" id="password-strength-meter"></meter>
+                                    <p style="margin:0" id="password-strength-text"></p>
+                                    
+                                </div>
+                            </div>
+
+  
+                            <button class="button is-block is-info is-large is-fullwidth" onclick="confirmacao-cadastro">Cadastrar <i class="fa fa-sign-in" aria-hidden="true"></i></button>
+                            <br>
+                            <a href = "{{ url_for('login') }}">Voltar para tela de Login</a>
+                        </form>
+                    </div>
+
+                    <br>
+                    {% for message in get_flashed_messages() %}
+                    <div class="primary">
+                        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                    {{ message }}
+                    </div>
+                    {% endfor %}
+
+                </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/zxcvbn/4.2.0/zxcvbn.js"></script> <!--código JS da força da senha-->
+
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("password");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        }
+
+        var strength = {
+            0: "Muito Fraca ☹",
+            1: "Fraca ☹",
+            2: "Razoável ☹",
+            3: "Boa ☺",
+            4: "Ótima ☻"
+        }
+
+    var password = document.getElementById('password');
+    var meter = document.getElementById('password-strength-meter');
+    var text = document.getElementById('password-strength-text');
+
+
+
+    meter.style.backgroundColor = "white"
+    // Function to change the content of t2
+    function modifyText() {
+        //var meter = document.getElementById('password-strength-meter');
+
+        tamanho_senha = password.value.length;
+
+        if(tamanho_senha<=0){
+            meter.style.backgroundColor = "white";
+        }
+        
+        else if (meter.value==0) {
+            meter.style.backgroundColor = "red";
+        }
+
+        else if (meter.value==1) {
+            meter.style.backgroundColor = "DarkRed";
+        }
+        else if(meter.value==2){
+            meter.style.backgroundColor = "Yellow";
+        } 
+
+        else if(meter.value==3){
+            meter.style.backgroundColor = "LightGreen";
+        }
+
+        else if(meter.value==4){
+            meter.style.backgroundColor = "green";
+        }    
+    };
+
+    password.addEventListener('input', function()
+    {
+        
+    
+        // Update the password strength meter
+        var val = password.value;
+        var result = zxcvbn(val);
+        
+        meter.value = result.score;
+
+        
+
+        var languageMapSuggestions = {
+            "Add another word or two. Uncommon words are better." : "Adicione mais uma ou duas palavras. Palavras incomuns são melhores.",
+
+            'Add another word or two. Uncommon words are better.,Avoid repeated words and characters' : 'Palavras incomuns são melhores. Evite repetir palavras e caracteres',
+
+            '': "",
+
+            "Add another word or two. Uncommon words are better.,Capitalization doesn't help very much": "Adicione mais uma ou duas palavras. Palavras incomuns são melhores. Apenas usar Caixa Alta não ajuda muito",
+
+            "Add another word or two. Uncommon words are better.,Avoid sequences": "Adicione mais uma ou duas palavras. Palavras incomuns são melhores. Evite sequências lógicas",
+
+            "Add another word or two. Uncommon words are better.,Reversed words aren't much harder to guess": "Adicione mais uma ou duas palavras. Palavras incomuns são melhores. Palavras reversas não são boas recomendaçoes"
+        };
+
+        var languageMapWarnings = {
+            'Sequences like abc or 6543 are easy to guess' : 'Sequências como abc ou 6543 são fáceis de acertar',
+            "":"",
+            "Names and surnames by themselves are easy to guess": "Nomes e sobrenomes não são recomendados",
+            "Common names and surnames are easy to guess" : "Nomes e sobrenomes não são recomendados",
+            "This is a very common password": "Essa senha é muito comum.",
+            'Repeats like "abcabcabc" are only slightly harder to guess than "abc"': 'Repetir sentenças como "abcabcabc" torna a sua senha apenas um pouco mais difícil de quebrar do que"abc."',
+            "This is a top-100 common password": "Essa é uma das senhas mais comuns.",
+            "This is similar to a commonly used password":"Essa senha é muito parecida com uma das mais utilizadas."
+        };
+
+        var sugestoes_ingles = languageMapSuggestions[result.feedback.suggestions];
+        var warnings_ingles = languageMapWarnings[result.feedback.warning];
+        
+        // Update the text indicator
+        if(val !== "") {
+            //meter.style.backgroundColor = "red";
+            /*
+            text.innerHTML = "Força: " + "<strong>" + strength[result.score] + "</strong>" + "<span class='feedback'>" + result.feedback.warning + " " + result.feedback.suggestions + "</span"; 
+            */
+            text.innerHTML = "Força: " + "<strong>" + strength[result.score] + "</strong>" + "<span class='feedback'>" + warnings_ingles + " " + sugestoes_ingles + "</span"; 
+        }
+        else {
+            text.innerHTML = "";
+        }
+                
+    });
+
+    password.addEventListener("input", modifyText);
+
+   
+        
+    
+        
+
+    
+
+    
+
+</script>
+</body>
+
+</html>
+
+

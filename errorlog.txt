@@ -1,0 +1,2428 @@
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 162, in inicio
+    return redirect(url_for('login'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'login'. Did you mean 'inicio' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 162, in inicio
+    return redirect(url_for('login'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'login'. Did you mean 'inicio' instead?
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 144, in login
+    return render_template('index.html')
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\templates\index.html", line 46, in top-level template code
+    <a href = "{{ url_for('registro') }}">Deseja se cadastrar?</a>
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'registro'. Did you mean 'login' instead?
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 144, in login
+    return render_template('index.html')
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\templates\index.html", line 46, in top-level template code
+    <a href = "{{ url_for('registro') }}">Deseja se cadastrar?</a>
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'registro'. Did you mean 'login' instead?
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 144, in login
+    return render_template('index.html')
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\templates\index.html", line 46, in top-level template code
+    <a href = "{{ url_for('registro') }}">Deseja se cadastrar?</a>
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'registro'. Did you mean 'login' instead?
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 139, in login
+    return render_template('index.html')
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 137, in render_template
+    return _render(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
+    rv = template.render(context)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\jinja2\_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\templates\index.html", line 46, in top-level template code
+    <a href = "{{ url_for('registro') }}">Deseja se cadastrar?</a>
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'registro'. Did you mean 'login' instead?
+Exception on /app1/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in app1
+    return redirect(url_for('/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/_dash-update-component'. Did you mean '/app1/_dash-update-component' instead?
+Exception on /app1/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in app1
+    return redirect(url_for('_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '_dash-update-component'. Did you mean '/app1/_dash-update-component' instead?
+Exception on /app1/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in app1
+    return redirect(url_for('/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/_dash-update-component'. Did you mean '/app1/_dash-update-component' instead?
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1026, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1014, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1345, in retornar_classes_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1355, in retornar_centros_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1609, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1620, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1986, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1996, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /app1/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 689, in update_grafico_variacao_vocabular
+    if('Resumo' in dropdown_modalidades_variacao):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 134, in login
+    return redirect(url_for('/app1/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/'. Did you mean 'app1' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 135, in login
+    return redirect(url_for('/home/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/'. Did you mean '/_dash-update-component' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 135, in login
+    return redirect(url_for('/home/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/'. Did you mean '/_dash-update-component' instead?
+Exception on /home/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 153, in app1
+    return redirect(url_for('/home'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home'. Did you mean '/_dash-update-component' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 135, in login
+    return redirect(url_for('/home/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/'. Did you mean '/_dash-update-component' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 135, in login
+    return redirect(url_for('/home/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/'. Did you mean '/_dash-update-component' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 134, in login
+    return redirect(url_for('/app1/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/'. Did you mean 'app1' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 134, in login
+    return redirect(url_for('/app1/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/'. Did you mean 'app1' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 150, in app1
+    return redirect(url_for('/app1/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/_dash-update-component'. Did you mean '/_dash-update-component' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 150, in app1
+    return redirect(url_for('/app1/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/_dash-update-component'. Did you mean '/_dash-update-component' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 150, in app1
+    return redirect(url_for('/app1/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/_dash-update-component'. Did you mean '/_dash-update-component' instead?
+Exception on / [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 150, in app1
+    return redirect(url_for('/app1/_dash-update-component'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/app1/_dash-update-component'. Did you mean '/_dash-update-component' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 134, in login
+    return redirect(url_for('/home'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home'. Did you mean '/home/' instead?
+Exception on /login [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 134, in login
+    return redirect(url_for('/home'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home'. Did you mean '/home/' instead?
+Exception on /home/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 151, in app1
+    return redirect(url_for('/name/'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/name/'. Did you mean '/home/' instead?
+Exception on /home/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 151, in app1
+    return redirect(url_for('/home/app'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/app'. Did you mean '/home/' instead?
+Exception on /home/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 151, in app1
+    return redirect(url_for('/home/app'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home/app'. Did you mean '/home/' instead?
+Exception on /home/ [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 151, in app1
+    return redirect(url_for('/home'))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/home'. Did you mean '/home/' instead?
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1014, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1026, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1345, in retornar_classes_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1355, in retornar_centros_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1609, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1620, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1986, in retornar_anos_dropdown
+    if('ta' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 1996, in retornar_anos_dropdown
+    if('tc' in value):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /home/_dash-update-component [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1079, in dispatch
+    response.set_data(func(*args, outputs_list=outputs_list))
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\dash\dash.py", line 1010, in add_context
+    output_value = func(*args, **kwargs)  # %% callback invoked %%
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\apps\variacao.py", line 689, in update_grafico_variacao_vocabular
+    if('Resumo' in dropdown_modalidades_variacao):
+TypeError: argument of type 'NoneType' is not iterable
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 133, in registro
+    mycursor.execute(
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8568 and this is thread id 5464.
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 133, in registro
+    mycursor.execute(
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 9780 and this is thread id 16712.
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 133, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 133, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 131, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 144, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 145, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 145, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in registro
+    mycursor.execute(
+sqlite3.OperationalError: near "%": syntax error
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 149, in registro
+sqlite3.OperationalError: no such table: cadastro
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 121, in registro
+    mycursor.execute(
+sqlite3.OperationalError: 3 values for 4 columns
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 190, in login
+    if(status!=1):
+NameError: name 'status' is not defined
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 190, in login
+    if(status!=1):
+NameError: name 'status' is not defined
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    print(users[0]["status"])
+TypeError: 'User' object is not subscriptable
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    print(users[0]["status"])
+TypeError: 'User' object is not subscriptable
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    print(users[0]["status"])
+TypeError: 'User' object is not subscriptable
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    print(users[0]["status"])
+TypeError: 'User' object is not subscriptable
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range(users):
+TypeError: 'list' object cannot be interpreted as an integer
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range(users):
+TypeError: 'list' object cannot be interpreted as an integer
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range(users):
+TypeError: 'list' object cannot be interpreted as an integer
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range(users):
+TypeError: 'list' object cannot be interpreted as an integer
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range(users):
+TypeError: 'list' object cannot be interpreted as an integer
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range():
+TypeError: range expected 1 argument, got 0
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 186, in login
+    for i in range():
+TypeError: range expected 1 argument, got 0
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 202, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 204, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 204, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 204, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 204, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    if app.config['MAIL']:
+KeyError: 'MAIL'
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    if app.config['MAIL']:
+KeyError: 'MAIL'
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    mail.send()
+TypeError: send() missing 1 required positional argument: 'message'
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    mail.send()
+TypeError: send() missing 1 required positional argument: 'message'
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 205, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 221, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 158, in configure_host
+    host = smtplib.SMTP(self.mail.server, self.mail.port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 253, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 339, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 308, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 808, in create_connection
+    raise err
+  File "C:\Users\jguil\Anaconda3\lib\socket.py", line 796, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials y11sm13362223pfo.160 - gsmtp')
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials o9sm13937426pfh.217 - gsmtp')
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials e2sm15255762pgh.5 - gsmtp')
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 491, in send
+    with self.connect() as connection:
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 144, in __enter__
+    self.host = self.configure_host()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 165, in configure_host
+    host.login(self.mail.username, self.mail.password)
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 734, in login
+    raise last_exception
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 723, in login
+    (code, resp) = self.auth(
+  File "C:\Users\jguil\Anaconda3\lib\smtplib.py", line 646, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials g204sm13075085pfb.206 - gsmtp')
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 492, in send
+    message.send(connection)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 427, in send
+    connection.send(self)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 177, in send
+    assert message.sender, (
+AssertionError: The message does not specify a sender and a default sender has not been configured
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 219, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 492, in send
+    message.send(connection)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 427, in send
+    connection.send(self)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 188, in send
+    self.host.sendmail(sanitize_address(envelope_from or message.sender),
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 105, in sanitize_address
+    nm, addr = addr
+ValueError: not enough values to unpack (expected 2, got 1)
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 235, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 492, in send
+    message.send(connection)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 427, in send
+    connection.send(self)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 188, in send
+    self.host.sendmail(sanitize_address(envelope_from or message.sender),
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 105, in sanitize_address
+    nm, addr = addr
+ValueError: not enough values to unpack (expected 2, got 1)
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 235, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 492, in send
+    message.send(connection)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 427, in send
+    connection.send(self)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 188, in send
+    self.host.sendmail(sanitize_address(envelope_from or message.sender),
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 105, in sanitize_address
+    nm, addr = addr
+ValueError: not enough values to unpack (expected 2, got 1)
+Exception on /login [GET]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 235, in login
+    mail.send(mensagem)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 492, in send
+    message.send(connection)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 427, in send
+    connection.send(self)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 188, in send
+    self.host.sendmail(sanitize_address(envelope_from or message.sender),
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask_mail.py", line 105, in sanitize_address
+    nm, addr = addr
+ValueError: not enough values to unpack (expected 2, got 1)
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 197, in registro
+    confirmar_email(status,email,username)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 102, in confirmar_email
+    link = url_for('login/confirm_email', token=t, chave_token=s, _external=True)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'login/confirm_email' with values ['chave_token', 'token']. Did you mean 'confirm_email' instead?
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 197, in registro
+    confirmar_email(status,email,username)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 102, in confirmar_email
+    link = url_for('/confirm_email', token=t, chave_token=s, _external=True)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint '/confirm_email' with values ['chave_token', 'token']. Did you mean 'confirm_email' instead?
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 181, in registro
+    users = carrega_users(mycursor)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 78, in carrega_users
+    df = carrega_df(cursor)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 62, in carrega_df
+    cursor.execute('''select * from  "registro" ''')
+sqlite3.ProgrammingError: Recursive use of cursors not allowed.
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 168, in registro
+    mycursor.execute(
+sqlite3.ProgrammingError: Recursive use of cursors not allowed.
+Exception on /registro [POST]
+Traceback (most recent call last):
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\jguil\Anaconda3\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\jguil\OneDrive\Documentos\GitHub\Principal\login.py", line 168, in registro
+    mycursor.execute(
+sqlite3.ProgrammingError: Incorrect number of bindings supplied. The current statement uses 0, and there are 4 supplied.
